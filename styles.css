@@ -49,7 +49,7 @@ nav a {
 }
 
 .footer {
-  position: relative;
+
   width: 1024px;
   height: 229px;
   left: 0px;
@@ -67,6 +67,34 @@ nav a {
   left: 57px;
   top: 830px;
   background-color: red;
+  margin-left: 57px;
+  margin-top: 35px;
+
+}
+.box2 {
+  float: left;
+
+  width: 202px;
+  height: 163px;
+  left: 57px;
+  top: 830px;
+  background-color: red;
+  margin-left: 37px;
+  margin-top: 35px;
+
+}
+
+.button {
+  float: right;
+
+  width: 176px;
+  height: 50px;
+  left: 722px;
+  top: 880px;
+  background-color: red;
+  margin-right: 146px;
+  margin-top: 71px;
+  margin-bottom: 80px;
 
 }
 /** FACE */
@@ -81,9 +109,6 @@ nav a {
   font-size: 72px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   padding-left: 63px;
-<<<<<<< HEAD
-}
-=======
   padding-top: 23px;
 }
 
@@ -103,4 +128,3 @@ main {
 main div {
 
 }
->>>>>>> b66db001c2300da64685dfca465486821b746b28
