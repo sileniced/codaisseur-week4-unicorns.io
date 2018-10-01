@@ -31,30 +31,42 @@ body {
 
 nav {
   display: flex;
+  margin-right: 20px;
 }
 
 .hat a, nav a {
   color: white;
-  padding: 1em;
   font-weight: bold;
   font-size: 18px;
 }
 
+.hat a:first-child {
+  padding: 1em 33px;
+}
+
 nav a {
   text-decoration: none;
+  padding: 1em 20px;
 }
 
 /** FACE */
 
 .face {
-  height: 210px;
+  height: 161px;
   background: #39353B;
+  color: #ffffff;
 }
 
 .welcome {
   font-family: "Lobster", cursive;
-  color: #ffffff;
   font-size: 72px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   padding-left: 63px;
+  padding-top: 23px;
 }
+
+.tag-line {
+  font-size: 24px;
+  padding-left: 124px;
+}
+
