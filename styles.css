@@ -1,18 +1,17 @@
+html {
+  background: #97C9AD;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   width: 1024px;
   height: 1024px;
   /* margin: 0 auto; */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  position: relative;
+  margin: 100px auto 0 auto;
 }
 
 
 /** HEADER **/
-
 .header {
   display: flex;
   flex-direction: column;
@@ -31,17 +30,22 @@ body {
 
 nav {
   display: flex;
+  margin-right: 20px;
 }
 
 .hat a, nav a {
   color: white;
-  padding: 1em;
   font-weight: bold;
   font-size: 18px;
 }
 
+.hat a:first-child {
+  padding: 1em 33px;
+}
+
 nav a {
   text-decoration: none;
+  padding: 1em 20px;
 }
 
 .footer {
@@ -66,16 +70,37 @@ nav a {
 
 }
 /** FACE */
-
 .face {
-  height: 210px;
+  height: 161px;
   background: #39353B;
+  color: #ffffff;
 }
 
 .welcome {
   font-family: "Lobster", cursive;
-  color: #ffffff;
   font-size: 72px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   padding-left: 63px;
+<<<<<<< HEAD
 }
+=======
+  padding-top: 23px;
+}
+
+.tag-line {
+  font-size: 24px;
+  padding-left: 124px;
+}
+
+/** MAIN */
+main {
+  height: 500px;
+  background: #FBF0FF;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main div {
+
+}
+>>>>>>> b66db001c2300da64685dfca465486821b746b28
