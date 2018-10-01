@@ -1,15 +1,17 @@
 body {
   font-family: "Segoe UI", sans-serif;
+  width: 1024px;
+  margin: 0 auto;
 }
 
 
 /** HEADER **/
-header {
+/* header {
   position: absolute;
   width: 100%;
   left: 0;
   top: 0;
-}
+} */
 
 .header {
   display: flex;
@@ -43,4 +45,21 @@ nav {
 
 nav a {
   text-decoration: none;
+}
+
+.footer {
+  position: relative;
+  width: 1024px;
+  height: 229px;
+  left: 0px;
+  top: 795px;
+  background: #39353B;
+  margin: 0 auto;
+
+}
+
+.box1 {
+  Font Size: 18px
+  Line Height: 25px
+  Align: Right
 }
