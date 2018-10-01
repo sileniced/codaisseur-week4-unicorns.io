@@ -1,17 +1,12 @@
+html {
+  background: #97C9AD;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   width: 1024px;
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
 }
-
-
-/** HEADER **/
-/*header {*/
-  /*position: absolute;*/
-  /*width: 100%;*/
-  /*left: 0;*/
-  /*top: 0;*/
-/*}*/
 
 .header {
   display: flex;
@@ -50,7 +45,6 @@ nav a {
 }
 
 /** FACE */
-
 .face {
   height: 161px;
   background: #39353B;
@@ -70,3 +64,14 @@ nav a {
   padding-left: 124px;
 }
 
+/** MAIN */
+main {
+  height: 500px;
+  background: #FBF0FF;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main div {
+
+}
