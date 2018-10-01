@@ -5,9 +5,13 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   width: 1024px;
+  height: 1024px;
+  /* margin: 0 auto; */
   margin: 100px auto 0 auto;
 }
 
+
+/** HEADER **/
 .header {
   display: flex;
   flex-direction: column;
@@ -44,6 +48,55 @@ nav a {
   padding: 1em 20px;
 }
 
+.footer {
+
+  width: 1024px;
+  height: 229px;
+  left: 0px;
+  top: 795px;
+  background: #39353B;
+  margin: 0 auto;
+
+}
+
+.box1 {
+  float: left;
+
+  width: 202px;
+  height: 163px;
+  left: 57px;
+  top: 830px;
+  background-color: red;
+  margin-left: 57px;
+  margin-top: 35px;
+
+}
+.box2 {
+  float: left;
+
+  width: 202px;
+  height: 163px;
+  left: 57px;
+  top: 830px;
+  background-color: red;
+  margin-left: 37px;
+  margin-top: 35px;
+
+}
+
+.button {
+  float: right;
+
+  width: 176px;
+  height: 50px;
+  left: 722px;
+  top: 880px;
+  background-color: red;
+  margin-right: 146px;
+  margin-top: 71px;
+  margin-bottom: 80px;
+
+}
 /** FACE */
 .face {
   height: 161px;
