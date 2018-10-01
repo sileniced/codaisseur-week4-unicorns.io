@@ -72,6 +72,46 @@ main {
   justify-content: space-evenly;
 }
 
-main div {
+main .box-container {
+  width: 260px;
+  height: 216px;
+  margin-top: 40px;
+  background: #FEFCFF;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .box-container div {
+  display: flex;
+  justify-content: center;
+}
+
+main .box-container div button {
+  background: #F2C94C;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 3px;
+
+  padding: 5px 10px;
+
+  font-size: 18px;
+  color: white;
+  font-family: inherit;
+
+}
+
+main .box-container div button.disabled {
+  background: darkgray;
+}
+
+main .box-container div button:active {
+  box-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+main .box-container div button:focus {
+  outline: 0 !important;
 }
