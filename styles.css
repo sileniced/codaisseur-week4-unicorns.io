@@ -1,15 +1,17 @@
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  width: 1024px;
+  margin: 0 auto;
 }
 
 
 /** HEADER **/
-header {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: 0;
-}
+/*header {*/
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*left: 0;*/
+  /*top: 0;*/
+/*}*/
 
 .header {
   display: flex;
@@ -18,17 +20,13 @@ header {
 
 /** HAT **/
 .hat-background {
-  height: 3em;
-  background: #333;
+  height: 49px;
+  background: #1C1A1A;
 }
 
 .hat {
   display: flex;
   justify-content: space-between;
-
-  position: absolute;
-  width: 50%;
-  left: 25%;
 }
 
 nav {
@@ -39,8 +37,24 @@ nav {
   color: white;
   padding: 1em;
   font-weight: bold;
+  font-size: 18px;
 }
 
 nav a {
   text-decoration: none;
+}
+
+/** FACE */
+
+.face {
+  height: 210px;
+  background: #39353B;
+}
+
+.welcome {
+  font-family: "Lobster", cursive;
+  color: #ffffff;
+  font-size: 72px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding-left: 63px;
 }
